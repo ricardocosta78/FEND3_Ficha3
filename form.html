@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="icon.ico" />
+  </head>
+  <body>
+    <main>
+      <header style="text-align: center">
+        <img
+          src="https://www.cesae.pt/wp-content/uploads/2016/07/logo30anos-min.png"
+          alt=""
+        />
+      </header>
+      <nav>
+        <a href="exercicio.html">Ir para página oficial</a>
+        <br />
+        <a href="https://facebook.com/CESAE.PT" target="_blank">Facebook</a>
+        <a href="https://linkedin.com/company/cesae/" target="_blank"
+          >Linkedin</a
+        >
+        <a href="https://www.youtube.com/user/CESAECanal" target="_blank"
+          >Youtube</a
+        >
+        <a href="form.html" target="_blank">Formulário</a>
+        <a href="multimedia.html" target="_blank">Multimédia</a>
+      </nav>
+      <h3>Formulário de contacto do CESAE</h3>
+      <form action="">
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Insira o seu nome aqui"
+          required
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+
+        <br />
+        <br />
+        <label for="radio">Género:</label>
+        <input type="radio" name="radio" id="radio" />Masculino
+        <input type="radio" name="radio" id="radio" />Feminino
+        <br />
+        <label for="data">Data atual:</label>
+        <input type="datetime-local" id="data" name="data" />
+        <br />
+        <label for="turma">Turma:</label>
+        <select name="turna" id="turma">
+          <option value="Web Developer & Mobile">Web Developer & Mobile</option>
+          <option value="Python Programmer">Python Programmer</option>
+        </select>
+        <br />
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="3"></textarea>
+        <br />
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </form>
+      <footer>
+        <p>
+          Copyright 2020 CESAE| Todos os direitos reservados| Desenvolvido
+          por...mim :)
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
